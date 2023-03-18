@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
+		<image class="logo" src="/static/image/logo1.png"></image>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 		</view>
@@ -11,7 +11,7 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: '惠生Devops'
 			}
 		},
 		onLoad() {
@@ -33,7 +33,7 @@
 
 	.logo {
 		height: 200rpx;
-		width: 200rpx;
+		width: 330rpx;
 		margin-top: 200rpx;
 		margin-left: auto;
 		margin-right: auto;
@@ -46,7 +46,7 @@
 	}
 
 	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
+		font-size: 46rpx;
+		color: #aa0000;
 	}
 </style>
